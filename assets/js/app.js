@@ -357,6 +357,9 @@
     if (window.location.href.indexOf('cart.html') > -1) {
         Init.loadCartItems();
     }
+    if (window.location.href.indexOf('checkout.html') > -1) {
+        Init.loadCartItems();
+    }
   });
 
   $('<style>')
