@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Football Club Information System">
+
+        <title>Football Club Information System</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="assets/media/favicon-light.png">
+
+        <!-- All CSS files -->
+        <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/vendor/font-awesome.css">
+        <link rel="stylesheet" href="assets/css/vendor/slick.css">
+        <link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
+        <link rel="stylesheet" href="assets/css/app.css">
+    </head>
+
+    <body>
+        <!-- Preloader -->
+        <div id="preloader">
+            <div class="section-path">
+                <div class="globe">
+                    <div class="wrapper">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Back To Top Start -->
+        <a href="#main-wrapper" id="backto-top" class="back-to-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+        <!-- Main Wrapper Start -->
+        <div id="main-wrapper" class="main-wrapper overflow-hidden">
+
+            <!-- Header Area Start -->
+            <header class="header">
+                <nav class="navbar navbar-expand-xl">
+                    <img src="assets/media/shape/logoframe.png" alt="" class="logoframe">
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html"><img alt=""  src="./assets/media/team_logo_resized.png"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"><i class="fas fa-bars"></i></button>
+                        <div class="collapse navbar-collapse" id="mynavbar">
+                            <ul class="navbar-nav mainmenu m-0">
+                                <li class="menu-item-has-children">
+                                    <a href="javascript:void(0);">HOME</a>
+                                    <ul class="submenu">
+                                        <li><a href="index.html">Home 1</a></li>
+                                        <li><a href="index-2.html">Home 2</a></li>
+                                        <li><a href="index-3.html">Home 3</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="javascript:void(0);"  class="active">SHOP</a>
+                                    <ul class="submenu">
+                                        <li><a href="shop-grid.html">Shop grid</a></li>
+                                        <li><a href="product-detail.html" class="active">Product Detail</a></li>
+                                        <li><a href="cart.html">Cart</a></li>
+                                        <li><a href="checkout.html">Checkout</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="javascript:void(0);">PAGES</a>
+                                    <ul class="submenu">
+                                        <li><a href="blog-grid.html">Blog Grid</a></li>
+                                        <li><a href="blog-list.html">Blog List</a></li>
+                                        <li><a href="blog-detail.html">Blog Detail</a></li>
+                                        <li><a href="players.html">Players</a></li>
+                                        <li><a href="player-detail.html">Player detail</a></li>
+                                        <li><a href="privacy-policy.html">Privacy policy</a></li>
+                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="signup.html">Signup</a></li>
+                                        <li><a href="404.html">404 Error</a></li>
+                                        <li><a href="coming-soon.html">Coming Soon</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item"><a href="about.html">ABOUT</a></li>
+                                <li class="menu-item"><a href="contact.html">CONTACT</a></li>
+                            </ul>
+                            
+                        </div>
+                        <div class="right-content">
+                            <ul>
+                                <li><a href="login.html"><img src="assets/media/icon/user.png" alt=""></a></li>
+                                <li><a href=""><img src="assets/media/icon/wishlist.png" alt=""></a></li>
+                                <li><a href="cart.html"><img src="assets/media/icon/shopping-cart.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </nav>
+            </header>
+            <!-- Header Area end -->
+
+            <!-- Page Title Start  -->
+            <div class="page-title-banner">
+                <div class="bread_crumb"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-10 col-lg-9 offset-xl-2 offset-lg-3">
+                            <ul class="breadcrumb_wrap">
+                                <li><a href="index.html">Home</a></li>
+                                <li class="onpage"><a href="product-detail.html">Product Detail</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Feature Product detail Start  -->
+            <div class="product-detail p-96">
+                <div class="container">
+                     <div class="row">
+                        <div class="col-xl-5 col-lg-4 col-md-8">
+                            <div class="product-image">
+                                <img src="assets/media/products/fcdk-pro.png" alt="">
+                                <div class="wishlist-icon">
+                                    <a href=""><img src="assets/media/icon/wishlist-2.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-8">
+                            <div class="detail">
+                                <div class="upper-row">
+                                    <h2 class="title">FCDK Essentials T-Shirt</h2>
+                                    <div class="price">$69</div>
+                                </div>
+                                <p>Designed for high-intensity workouts, it's the perfect fit<br> for all your training needs. Shop now and feel the<br> difference.</p>
+                                <div class="detail-blocks">
+                                    <div class="block">
+                                        <h6 class="block-title">Category:</h6>
+                                        <h5>T-Shirts</h5>
+                                    </div>
+                                    <div class="block">
+                                        <h6 class="block-title">Material:</h6>
+                                        <h5>Dri-Fit</h5>
+                                    </div>
+                                    <div class="block">
+                                        <h6 class="block-title">Rating:</h6>
+                                        <h5>Dri-Fit</h5>
+                                    </div>
+                                    <div class="block">
+                                        <h6 class="block-title">Color:</h6>
+                                        <ul class="color">
+                                            <li><label><input type="radio" name="color" value="black"><span class="color bgcolor1">&nbsp;</span> </label></li>
+                                            <li class="coloractive"><label><input type="radio" name="color" value="red"><span class="color bgcolor2">&nbsp;</span>  </label></li>
+                                            <li><label><input type="radio" name="color" value="grey"><span class="color bgcolor3">&nbsp;</span> </label></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="sizes">
+                                    <h6 class="block-title">Sizes:</h6>
+                                    <ul class="size">
+                                        <li>S</li>
+                                        <li class="active">M</li>
+                                        <li>L</li>
+                                        <li>XL</li>
+                                    </ul>
+                                </div>
+                                <div class="bottom-row">
+                                    <div class="quantity quantity-wrap">
+                                        <input class="decrement" type="button" value="-" >
+                                        <input type="text" name="quantity" value="1" maxlength="2" size="1" class="number">
+                                        <input class="increment" type="button" value="+" >
+                                    </div>
+                                    <a href="cart.html" class="cta">
+                                        <span class="span">Add to Cart</span>
+                                        <span class="second">
+                                            <svg width="50px" height="20px" color="black" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                                                <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                                                <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
+                                            </g>
+                                            </svg>
+                                        </span> 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="detail-product-content">
+                         <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-8 mb-64 mb-lg-0">
+                                <h6 class="block-title">Reviews (6)</h6>
+                                <div class="review-box">
+                                    <div class="upper-row">
+                                        <div class="user"><h6 class="name">Jeager Milka</h6></div>
+                                        <div class="stars">★★★★★</div>
+                                    </div>
+                                    <p class="review">
+                                        I recently purchased a t-shirt from FCDK, and I must say, it exceeded my expectations! The fabric is incredibly soft and comfortable, perfect for everyday wear. What really stands out is the print quality – the colors are vivid and the design hasn't faded a bit even after several washes.
+                                    </p>
+                                </div>
+                                <div class="review-box">
+                                    <div class="upper-row">
+                                        <div class="user"><h6 class="name">Dave Walker</h6></div>
+                                        <div class="stars">★★★★★</div>
+                                    </div>
+                                    <p class="review">
+                                        I'm thoroughly impressed with the football t-shirt I ordered from FCDK. The fabric is soft yet durable, making it ideal for intense matches. What I love most is the moisture-wicking feature that keeps me dry and comfortable throughout the game. 
+                                    </p>
+                                </div>
+                                <div class="review-box mb-0">
+                                    <div class="upper-row">
+                                        <div class="user"><h6 class="name">Fresco Miller</h6></div>
+                                        <div class="stars">★★★★★</div>
+                                    </div>
+                                    <p class="review">
+                                        I recently purchased a football t-shirt from FCDK and it's been a game-changer. The quality is outstanding, with a fabric that feels great against the skin and doesn't restrict movement. I was impressed by how it manages to stay cool and dry even during intense play. The design is professional, with sharp graphics and a color scheme that doesn't fade. 
+                                    </p>
+                                </div>
+                                <div class="more-review-block">
+                                    <a href="#" class="accordion-button more-review-btn" data-bs-toggle="collapse" data-bs-target="#coments" aria-expanded="true"> See all reviews<i class="far fa-chevron-right"></i></a>
+                                    <div id="coments" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                                        <div class="review-box">
+                                            <div class="upper-row">
+                                                <div class="user"><h6 class="name">Dave Walker</h6></div>
+                                                <div class="stars">★★★★★</div>
+                                            </div>
+                                            <p class="review">
+                                                I'm thoroughly impressed with the football t-shirt I ordered from FCDK. The fabric is soft yet durable, making it ideal for intense matches. What I love most is the moisture-wicking feature that keeps me dry and comfortable throughout the game. 
+                                            </p>
+                                        </div>
+                                        <div class="review-box">
+                                            <div class="upper-row">
+                                                <div class="user"><h6 class="name">Fresco Miller</h6></div>
+                                                <div class="stars">★★★★★</div>
+                                            </div>
+                                            <p class="review">
+                                                I recently purchased a t-shirt from FCDK, and I must say, it exceeded my expectations! The fabric is incredibly soft and comfortable, perfect for everyday wear. What really stands out is the print quality – the colors are vivid and the design hasn't faded a bit even after several washes.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review-form ">
+                                    <form action="product-detail.html">
+                                        <div class="upper-row">
+                                            <h6>Post a Review</h6>
+                                            <div class="form-group">
+                                                <fieldset>
+                                                    <span class="star-cb-group">
+                                                        <input type="radio" id="rating-5" name="rating" value="5" ><label for="rating-5">5</label>
+                                                        <input type="radio" id="rating-4" name="rating" value="4" ><label for="rating-4">4</label>
+                                                        <input type="radio" id="rating-3" name="rating" value="3" ><label for="rating-3">3</label>
+                                                        <input type="radio" id="rating-2" name="rating" value="2" ><label for="rating-2">2</label>
+                                                        <input type="radio" id="rating-1" name="rating" value="1" checked="checked" ><label for="rating-1">1</label>
+                                                        <input type="radio" id="rating-0" name="rating" value="0" class="star-cb-clear" ><label for="rating-0">0</label>
+                                                    </span>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                        <div class="mb-32">
+                                            <input type="text" class="form-control" id="name" name="name" required placeholder="Name">
+                                        </div>
+                                        <div class="mb-32">
+                                            <input type="text" class="form-control" id="review" name="review" required placeholder="Type here">
+                                        </div>
+                                        <button type="submit" class="cta">
+                                            <span class="span">Post Now</span>
+                                            <span class="second">
+                                                <svg width="50px" height="20px" color="black" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                    <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                                                    <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                                                    <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
+                                                </g>
+                                                </svg>
+                                            </span> 
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 offset-xl-1 col-lg-4 mb-64 mb-lg-0">
+                                <div class="description-block">
+                                    <h6 class="block-title">Full Description</h6>
+                                    <p>The FCDK 23/24 away game t-shirt is made of light, technological fabric, it is decorated with an embroidered New Balance logo and a FC Dynamo Kyiv chevron is sewn on. Thanks to the NB Dry technology, the fabric of the T-shirt is able to absorb and remove sweat from the skin for quick evaporation, ensuring comfort and dryness. Material: 100% polyester. The color is blue. The basic t-shirt is offered without number and name. All this is offered as an additional option, which is carried out within 1-3 working days.<br>
+                                    <br>
+                                    Featuring a sleek and minimalist design, the FCDK 23/24 away game T-shirt is perfect for player who want to look and feel their best. The t-shirt's fitted shape and racerback design offer maximum support, while its flatlock seams prevent irritation.</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 offset-xl-1 col-lg-4">
+                                <h6 class="block-title">Additional Info</h6>
+                                <ul class="">
+                                    <li>Material: 100% cotton</li>
+                                    <li>Available sizes: XS, S, M, L, XL</li>
+                                    <li>Machine washable</li>
+                                    <li>Do not tumble dry</li>
+                                    <li>Do not bleach</li>
+                                    <li>Do not iron on print</li>
+                                </ul>
+                            </div>
+                         </div>   
+                     </div>
+                </div>
+            </div>
+
+            <!-- Product Slider Start -->
+            <div class="product_slider pb-96">
+                <div class="container">
+                    <div class="heading">
+                        <h2>Our Inventory</h2>
+                        <p>Complete Collection of Shooters Gear</p>
+                    </div>
+                    <div class="product-slider">
+                        <div class="product-card">
+                            <img src="assets/media/products/fcdk-essentials.png" alt="">
+                            <a href="product-detail.html" class="title">T-Shirt</a>
+                            <h6 class="price">$69</h6>
+                            <div class="cart-btn">
+                                <a href="cart.html" class="cta-2"><span class="span">Add to Cart <i class="far fa-chevron-right"></i></span></a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="assets/media/products/fcdk-pro.png" alt="">
+                            <a href="product-detail.html" class="title">T-Shirt</a>
+                            <h6 class="price">$39</h6>
+                            <div class="cart-btn">
+                                <a href="cart.html" class="cta-2"><span class="span">Add to Cart <i class="far fa-chevron-right"></i></span></a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="assets/media/products/jacket-fcdk.png" alt="">
+                            <a href="product-detail.html" class="title">FCDK Jacket</a>
+                            <h6 class="price">$33</h6>
+                            <div class="cart-btn">
+                                <a href="cart.html" class="cta-2"><span class="span">Add to Cart <i class="far fa-chevron-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer area Start  -->
+            <footer class="footer pt-96">
+                <div class="text-center">
+                    <a href="index.html"><img src="assets/media/logo-light.png" alt=""></a>
+                </div>
+                <div class="main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-3 col-md-8">
+                                <div class="footer-widget">
+                                    <h5 class="title">Opening Hours</h5>
+                                    <ul class="list-unstyled open-hours">
+                                        <li>Mon - Fri</li>
+                                        <li> 07:00 - 23:00</li>
+                                        <li>Saturday</li>
+                                        <li>Closed</li>
+                                        <li>Sunday</li>
+                                        <li>Closed</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 ">
+                                <div class="footer-widget up-space">
+                                    <a class="modal-popup popup-btn">SUBSCRIBE</a>
+                                    <p class="sub">To our news letter for latest updates</p>
+                                    <ul class="footer-social-links">
+                                        <li><a href=""><img src="assets/media/icon/facebook.png" alt=""></a></li>
+                                        <li><a href=""><img src="assets/media/icon/instagram.png" alt=""></a></li>
+                                        <li><a href=""><img src="assets/media/icon/twitter.png" alt=""></a></li>
+                                        <li><a href=""><img src="assets/media/icon/youtube.png" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-8">
+                                <div class="footer-widget mb-0 text-xl-end">
+                                    <h5 class="title">Contact Info</h5>
+                                    <ul class="contact-list">
+                                        <li><a href="mailto:info@example.com">example@info.com</a></li>
+                                        <li><a href="tel:123456789">+1 234 567 78910</a></li>
+                                        <li>123 Main Street, Cityville, State, 38000</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <p class="copyright-text">All rights reserved.</p>
+                </div>
+            </footer>
+            <!-- newsletter popup form Area start -->
+            <div  class="newsletter-popup">
+                <div class="container">
+                    <div class="text-end">
+                        <button class="close"><i class="far fa-times"></i></button>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="block">
+                            <p>Subscribe to our Newsletter! we will let you know when we are live.</p>
+                            <div class="newsletter">
+                                <form action="index.html">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" id="newsletteremail" name="email" required placeholder="Your mail">
+                                        <button type="submit"><i class="fal fa-paper-plane"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Jquery Js -->
+        <script src="assets/js/vendor/jquery-3.6.3.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+        <script src="assets/js/vendor/slick.min.js"></script>
+        <script src="assets/js/vendor/jquery-appear.js"></script>
+        <script src="assets/js/vendor/jquery-validator.js"></script>
+        <!-- Site Scripts -->
+        <script src="assets/js/app.js"></script>
+    </body>
+
+</html>
+
+
